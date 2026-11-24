@@ -2,6 +2,8 @@
 
 Canal público oficial de distribuição do Mudkip.
 
-Este repositório contém somente executáveis, pacotes do navegador, manifestos assinados e a lista assinada de licenças revogadas. O código-fonte permanece em repositório privado.
+Este repositório contém somente o instalador, o launcher, os pacotes do aplicativo e do navegador e seus manifestos assinados. O código-fonte permanece no repositório privado `14grec/Mudkip`.
 
-Os arquivos são verificados pelo launcher com assinatura Ed25519 e SHA-256.
+O launcher acessa as releases públicas sem token. Antes de instalar qualquer pacote, ele valida a assinatura Ed25519 do manifesto e o SHA-256 do arquivo baixado.
+
+Não há licenças, códigos de dispositivo nem dados de usuários neste repositório.
